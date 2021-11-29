@@ -2,7 +2,7 @@
 
 > *一步步实现逻辑并在主网部署你的 demo.*
 
-- [demo_mo](#demo_mo)
+- [demo](#demo)
   - [motoko demo (15 min)](#motoko-demo-15-min)
   - [rust demo (5 min)](#rust-demo-5-min)
 - [reference](#reference)
