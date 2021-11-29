@@ -1,0 +1,11 @@
+type HttpResponse = record {
+  body : vec nat8;
+  headers : vec record { text; text };
+  status_code : nat16;
+};
+service : () -> {
+  allBalances : () -> (vec record { principal; nat64 }) query;
+  balanceOf : (principal) -> (nat64) query;
+  http_request : () -> (HttpResponse) query;
+  transfer : (principal, nat64) -> (bool);
+}

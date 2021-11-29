@@ -1,0 +1,13 @@
+[package]
+name = "demo_rs"
+version = "0.1.0"
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+ic-cdk-macros = "0.3.1"
+candid = "0.7.4"
+ic-cdk = "0.3.1"
+serde_bytes = "0.11.5"
+serde = "1"

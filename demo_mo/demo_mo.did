@@ -1,0 +1,18 @@
+type HttpResponse = 
+ record {
+   body: blob;
+   headers: vec HeaderField;
+   status_code: nat16;
+ };
+type HeaderField = 
+ record {
+   text;
+   text;
+ };
+type Demo = 
+ service {
+   balanceOf: (principal) -> (nat64) query;
+   http_request: () -> (HttpResponse) query;
+   transfer: (principal, nat64) -> (bool);
+ };
+service : () -> Demo
